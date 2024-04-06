@@ -35,4 +35,4 @@ def get_maang_data(start_date, time_span, reset_index=False):
     return data
 
 def get_maang_data_default(reset_index=False):
-    return get_maang_data('2018-01-01', '2024-01-01', reset_index)
+    return get_maang_data('2014-01-01', '2024-01-01', reset_index)
